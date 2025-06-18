@@ -6,11 +6,11 @@ class Stack{
     public:
     Stack(){}
     void push(int val){
-        ll.push_back(val);
+        ll.push_front(val);
     }
     void pop(){
         if(!ll.empty()) {
-            ll.pop_back();
+            ll.pop_front();
         } else {
             cout << "Stack Underflow" << endl;
         }
@@ -21,7 +21,7 @@ class Stack{
     }
 
     int  top(){
-        return ll.back();
+        return ll.front();
     }
 };
 int main(){

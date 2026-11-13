@@ -1,5 +1,4 @@
 # 🚀 DSA Practice — The Road to Better Problem Solving
-
 <p align="center">
   <b>Learning. Practicing. Debugging. Improving.</b>
 </p>
@@ -51,7 +50,8 @@ The repository follows a structured, day-wise approach. Each day introduces conc
 | Day 06 | Hash Maps, Sets, Prefix Sums | Frequency and subarray techniques |
 | Day 07 | Recursion, Backtracking, Bit Manipulation | Exploring solution spaces |
 | Day 08 | Sorting, Comparators, Intervals, Greedy | Sorting-based optimization |
-| Day 09+ | Linked Lists, Stacks, Queues, Trees, Graphs, DP | Upcoming topics |
+| Day 09 | Linked Lists, Stacks |Applications of LinkedLists and Stacks in Computer Science |
+| Day 10+ | Queues, Trees, Graphs, DP | Upcoming topics |
 
 *The roadmap evolves as I progress and revisit concepts.*
 
@@ -79,7 +79,7 @@ I want to understand not only *what* the optimal solution is, but also *why* it 
 |---|---|
 | C++17 | Primary programming language |
 | VS Code | Development environment |
-| GCC / G++ | Compilation |
+| GCC | Compilation |
 | Git & GitHub | Version control and progress tracking |
 | Codeforces / LeetCode | Problem-solving practice |
 
@@ -98,6 +98,7 @@ DSA-/
 ├── Day-06/
 ├── Day-07/
 ├── Day-08/
+├── Day-09/
 │
 └── README.md
 ```
@@ -126,19 +127,19 @@ cd Day-08
 **3. Compile**
 
 ```bash
-g++ -std=c++17 -O2 -Wall A_Custom_Comparator.cpp -o solution
+g++ -std=c++17 -O2 -Wall A.cpp -o A
 ```
 
 **4. Execute**
 
 ```bash
-./solution
+./A
 ```
 
 On Windows PowerShell:
 
 ```powershell
-.\solution.exe
+.\A.exe
 ```
 
 ---

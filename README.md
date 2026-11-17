@@ -1,4 +1,4 @@
-# 🚀 DSA Practice — The Road to Better Problem Solving
+#  DSA Practice — The Road to Better Problem Solving
 <p align="center">
   <b>Learning. Practicing. Debugging. Improving.</b>
 </p>
@@ -50,14 +50,17 @@ The repository follows a structured, day-wise approach. Each day introduces conc
 | Day 06 | Hash Maps, Sets, Prefix Sums | Frequency and subarray techniques |
 | Day 07 | Recursion, Backtracking, Bit Manipulation | Exploring solution spaces |
 | Day 08 | Sorting, Comparators, Intervals, Greedy | Sorting-based optimization |
-| Day 09 | Linked Lists, Stacks |Applications of LinkedLists and Stacks in Computer Science |
-| Day 10+ | Queues, Trees, Graphs, DP | Upcoming topics |
+| Day 09 | Linked Lists, Stacks | Applications of LinkedLists and Stacks in Computer Science |
+| Day 10 | Binary Tree and Binary Search Tree | BST Implementation and Practice Problems |
+| Day 11 | Graphs | Cycle Detection in Undirected Graphs and Shortest Path |
+| Day 12 | Advanced Graph Algorithms | Cycles in Directed Graphs,Topological Sorting ,BFS Coloring and DSU |
+| Day 13+ | Queues, Trees, Graphs, DP | Upcoming topics |
 
 *The roadmap evolves as I progress and revisit concepts.*
 
 ---
 
-## 🧠 My Approach to Every Problem
+##  My Approach to Every Problem
 
 I try not to jump directly into the optimal code. Instead, I follow a consistent problem-solving process:
 
@@ -99,7 +102,9 @@ DSA-/
 ├── Day-07/
 ├── Day-08/
 ├── Day-09/
-│
+|── Day-10/
+|── Day-11/
+|── Day-12/
 └── README.md
 ```
 
@@ -121,7 +126,7 @@ cd DSA-
 **2. Navigate to a problem**
 
 ```bash
-cd Day-08
+cd Day-11
 ```
 
 **3. Compile**

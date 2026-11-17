@@ -41,3 +41,39 @@ int main() {
     }
     return 0;
 }
+
+// Connected components in a graph using DSU
+#include <bits/stdc++.h>
+using namespace std;
+vector<int> parent, sz;
+int find(int x) {
+    if (parent[x] == x) return x;
+    return parent[x] = find(parent[x]);
+}
+bool unite(int a, int b) {
+    a = find(a);
+    b = find(b);
+    if (a == b) return false;
+    if (sz[a] < sz[b]) swap(a, b);
+    parent[b] = a;
+    sz[a] += sz[b];
+    return true;
+}
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n, m;
+    cin >> n >> m;
+    parent.resize(n + 1);
+    sz.assign(n + 1, 1);
+    for (int i = 1; i <= n; i++) parent[i] = i;
+    int components = n;
+    while (m--) {
+        int u, v;
+        cin >> u >> v;
+
+        if (unite(u, v)) components--;
+    }
+    cout << components << '\n';
+    return 0;
+}

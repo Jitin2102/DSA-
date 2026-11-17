@@ -1,5 +1,6 @@
 // First element greater than or equal to x (binary search)
 // if no such element exists print n
+
 #include <iostream>
 #include <vector>
 using namespace std;
